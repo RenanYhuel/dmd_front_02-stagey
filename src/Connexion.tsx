@@ -14,11 +14,11 @@ function App() {
             <div className='flex text-[#808080] roboto text-[20px] font-[400]'>Connectez-vous pour accéder à vos opportunités de stage et à notre communauté.</div>
           </div>
           <div className="flex gap-[10px] spacing">
-            <div className="flex rounded-[10px] border-[1px] border-[#E4E4E4] gap-[10px] py-[10px] w-[426px] h-[44px] justify-center items-center">
+            <div className="flex rounded-[10px] border-[1px] border-[#E4E4E4] gap-[10px] py-[10px] w-[426px] h-[44px] justify-center items-center cursor-pointer">
               <div><img src={Link_Logo} alt="" className='h-[24px] w-[24px] m-w-[100%] m-h-[100%]'/></div>
               <div className='singularText text-[#1E1E1E]'>Je me connecte avec Linkedin</div>
             </div>
-            <div className="flex rounded-[10px] border-[1px] border-[#E4E4E4] gap-[10px] py-[10px] h-[44px] w-[44px] justify-center items-center">
+            <div className="flex rounded-[10px] border-[1px] border-[#E4E4E4] gap-[10px] py-[10px] h-[44px] w-[44px] justify-center items-center cursor-pointer">
               <img src={Goog_Logo} alt="" className='h-[24px] w-[24px]'/>
             </div>
           </div>
@@ -28,8 +28,8 @@ function App() {
             <div className='w-[213px] bg-[#E4E4E4] h-[1px]'></div>
           </div>
           <div className="flex gap-[20px] rounded-[11px] p-[8px] spacing">
-            <div className="flex w-[222px] rounded-[10px] py-[12px] px-[20px] gap-[10px] bg-[#4285F4]"><button className='h-full w-full singularText text-white font-[500]'>Connexion</button></div>
-            <div className="flex w-[222px] rounded-[10px] py-[12px] px-[20px] gap-[10px]"><button className='h-full w-full singularText text-[#808080] font-[500]'>Inscription</button></div>
+            <div className="flex w-[222px] rounded-[10px] py-[12px] px-[20px] gap-[10px] bg-[#4285F4] cursor-pointer"><button className='h-full w-full singularText text-white font-[500]'>Connexion</button></div>
+            <div className="flex w-[222px] rounded-[10px] py-[12px] px-[20px] gap-[10px] cursor-pointer"><button className='h-full w-full singularText text-[#808080] font-[500]'>Inscription</button></div>
           </div>
           <form action="">
             <div className="flex flex-col">
@@ -41,7 +41,7 @@ function App() {
                 <label htmlFor="password" className='w-full h-[18px] singularText font-[500] text-[15px] text-[#4F4F4F]'>Mot de passe</label>
                 <input type="password" id='password' className='w-full py-[12px] px-[20px] rounded-[10px] border-[1px] border-[#BBBBBB] gap-[15px] placeholder:text-[#BDBDBD] placeholder:text-[16px] placeholder:font-[400]' placeholder='•••••••••••••••'/>
               </div>
-              <div className="flex w-[480px] gap-[10px] py-[12px] px-[20px] rounded-[10px] bg-[#4285F4]"><button className='w-full h-full singularText text-white font-[500]'>Je me connecte</button></div>
+              <div className="flex w-[480px] gap-[10px] py-[12px] px-[20px] rounded-[10px] bg-[#4285F4] cursor-pointer"><button className='w-full h-full singularText text-white font-[500]'>Je me connecte</button></div>
             </div>
           </form>
 
