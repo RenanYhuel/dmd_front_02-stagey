@@ -6,6 +6,10 @@ This project includes the login and registration pages of Stagey, a platform for
 
 You can check out the live version of Stagey here: [Stagey.fr](https://stagey.fr)
 
+## Live Website
+
+You can check out the live version of this page here : [Login/Register Page Dev Website Stagey](https://dmd-front-02-stagey.vercel.app)
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
