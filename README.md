@@ -1,5 +1,3 @@
-### 2. **dmd_front_02_stagey (Login and Register Page)**
-
 # Stagey - Login & Register Pages
 
 This project includes the login and registration pages of Stagey, a platform for internship opportunities. These pages allow users to log in or create an account to access the full features of the site.
